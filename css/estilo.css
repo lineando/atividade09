@@ -1,36 +1,19 @@
 body {
-background-color: white;
-
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 header {
-    background-color: rgb(255, 249, 132);
     display: flex;
     justify-content: center;
-    list-style: none;
-}
-
-.button {
-    text-decoration: none;
-    color: #000000;
-    background-color: #272224;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-.container {
-    width: 900px;
-    height: 400px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-
-}
-.content {
-    flex: 2;
-    display: flex;
-
-}
-.footer {
-    flex: 1;
-
+    gap: 10px;
+    margin-bottom: 20px;
 }
