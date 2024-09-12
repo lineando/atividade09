@@ -17,3 +17,14 @@ header {
     gap: 10px;
     margin-bottom: 20px;
 }
+
+.button {
+    background-color: #fcdf8a;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.content{
+
+}
