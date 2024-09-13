@@ -18,9 +18,6 @@ header {
     border-bottom: 2px solid rgb(117, 117, 117);
 }
 
-#header-lay2 {
-    margin-bottom: 80px;
-}
 .button {
     background-color: #fcdf8a;
     color: rgb(0, 0, 0);
@@ -100,31 +97,40 @@ header {
 }
 
 .box-20vh{
+    height: 20vh;
+    background-color: #eeee68;
+    
+}
+.box2-20vh {
+    height: 20vh;
+    background-color: #fcdf8a;
+}
+.box-30vh{
     height: 30vh;
     background-color: #eeee68;
 }
-.box-30vh{
-    height: 15vh;
-    background-color: #fcdf8a;
-}
 .box-15vh{
     height: 15vh;
-    background-color: #eeee68;
+    background-color: #fcdf8a;
 }
 .box-35vh{
     height: 35vh;
-    background-color: #fcdf8a;
+    background-color: #eeee68;
 }
 .box-50vh{
     height: 50vh;
-    background-color: #fcdf8a;
+    background-color: #fcdf8a;;
 }
-.lay2 {
+
+#lay2 {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+.largura {
+    width: 200px;
 
+ }
 .bttn3{
     padding: 15px;
     background-color:  #f8f0c4;
@@ -160,11 +166,6 @@ header {
     padding: 25px;
     background-color: #f5db74;
     margin-bottom: 50px;
-}
-
-.lay3 {
-    flex-direction: row;
-    gap: 30px;
 }
 
 .footer{
