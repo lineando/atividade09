@@ -13,8 +13,8 @@ header {
     justify-content: center;
     margin-bottom: 0 auto;
     gap: 20px;
-    padding: 30px;
-    background-color: lightyellow;
+    padding: 20px;
+    background-color: white;
     border-bottom: 2px solid rgb(117, 117, 117);
 }
 
@@ -22,7 +22,7 @@ header {
     background-color: #fcdf8a;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 30px 30px;
+    padding: 20px 40px;
     border-radius: 10px;
     display: inline-block;
 }
@@ -98,12 +98,12 @@ header {
 
 .box-20vh{
     height: 20vh;
-    background-color: #eeee68;
+    background-color: #fcdf8a;
     
 }
 .box2-20vh {
     height: 20vh;
-    background-color: #fcdf8a;
+    background-color: #eeee68;
 }
 .box-30vh{
     height: 30vh;
